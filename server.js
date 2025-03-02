@@ -9,7 +9,7 @@ const app = express();
 
 // Allow CORS for frontend (adjust as needed)
 app.use(cors()); // Temporary: Allow all origins
-// app.use(cors({ origin: "https://pixoraa.netlify.app" })); // Use this in production
+app.use(cors({ origin: "https://pixoraa.netlify.app/" })); // Use this in production
 
 app.use(bodyParser.json());
 
