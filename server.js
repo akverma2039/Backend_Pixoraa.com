@@ -9,7 +9,7 @@ const app = express();
 
 // Allow CORS for frontend
 app.use(cors({
-    origin: "https://pixoraa.netlify.app",
+    origin: "https://pixoraa.in",
     methods: ["POST"],
     allowedHeaders: ["Content-Type"]
 }));
